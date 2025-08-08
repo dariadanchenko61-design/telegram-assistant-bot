@@ -36,21 +36,21 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def price(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "💎 Прайс:\n"
-        "— Фото: $10\n"
-        "— Видео: $25\n"
-        "— Эксклюзив: $50\n"
-        "— Персональный контент: от $100\n"
-        "— Заказы обсуждаются в личке 💌"
+        "❤ Фото: $10\n"
+        "❤ Видео: $25\n"
+        "❤ Эксклюзив: $50\n"
+        "❤ Персональный контент: от $100\n"
+        "❤ Заказы обсуждаются в личке 💌"
     )
 
 # Контакты
 async def contact(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "📩 Мои контакты:\n"
-        "— Telegram: @darilicious\n"
-        "— OnlyFans: onlyfans.com/dasha\n"
-        "— Fansly: fansly.com/dasha\n"
-        "— Instagram: instagram.com/daria\n"
+        "🤑 Telegram: @darilicious\n"
+        "🤑 OnlyFans: onlyfans.com/dasha\n"
+        "🤑 Fansly: fansly.com/dasha\n"
+        "🤑 Instagram: instagram.com/daria\n"
         "Пиши, не стесняйся 😘"
     )
 
